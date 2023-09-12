@@ -1,0 +1,1648 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* contact details  */
+
+.contact {
+    padding-top: 16px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.number a {
+    display: inline-block;
+    margin-left: 10px;
+    color: gray;
+}
+
+.contact .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details ul {
+    display: flex;
+}
+
+.details ul li {
+    margin-right: 15px;
+    transition: all 0.5s;
+}
+
+.details ul li a {
+    color: gray;
+}
+.details ul li a:hover{
+    color: #13C5DD;
+    transition: all 0.5s;
+}
+
+/* heading section  */
+
+.heading {
+    background-color: white;
+}
+
+.heading .medinova {
+    color: #13C5DD;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.nav-li .nav-link {
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-li .nav-link:hover {
+    color: #13C5DD;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #13C5DD;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+/* 1st sec best health care solution  */
+.best {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.health-text span {
+    color: #13C5DD;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+}
+
+.health-text span::before {
+    width: 100%;
+    height: 5px;
+    content: " ";
+    position: absolute;
+    bottom: -8px;
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+.health-text h1 {
+    font-size: 80px;
+    color: white;
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.health-text .btn2 {
+    background: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.health-text .btn2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* 2nd sec medical care  */
+
+.medical-care {
+    padding: 50px 0;
+}
+
+.new-medical {
+    height: 100%;
+}
+
+.medical-photo {
+    width: 100%;
+    height: 100%;
+}
+
+.medical-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.span-style {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #13C5DD;
+    font-weight: 800;
+    position: relative;
+}
+
+.span-style::before {
+    width: 100%;
+    height: 5px;
+    content: " ";
+    position: absolute;
+    bottom: -8px;
+    background-color: gray;
+    opacity: 0.2;
+
+}
+
+.medical-text h2 {
+    font-size: 56px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.medical-text p {
+    font-size: 16px;
+    padding: 20px 0;
+    color: gray;
+
+}
+
+.medical-sec {
+    text-align: center;
+}
+
+.sec {
+    width: 200px;
+    height: 175px;
+    background-color: #EFF5F9;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec i {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #13C5DD;
+}
+
+.sec h3 {
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+}
+
+.sec-main .sec span {
+    color: #13C5DD;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 3rd sec excellent medical service  */
+.excellent {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.emergency {
+    background-color: #EFF5F9;
+    padding: 60px 30px;
+    margin-bottom: 25px;
+    transition: all 0.5s;
+}
+.emergency:hover{
+    background-color: #13C5DD;
+    color: white;
+}
+
+.emergency:hover p{
+    color: white;
+}
+.emergency:hover .icon{
+    background-color: white;
+}
+.emergency:hover .icon i{
+    color: #13C5DD;
+}
+
+.emergency h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.emergency p {
+    color: gray;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.icon {
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    background-color: #13C5DD;
+    transition: all 0.5s;
+
+}
+
+.icon i {
+    font-size: 50px;
+    transform: rotate(15deg);
+    color: white;
+    transition: all 0.5s;
+}
+
+/* 4th sec Appointment  */
+.make {
+    background-color: #13C5DD;
+    padding: 50px;
+}
+
+.book {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.book h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.book-form {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info .details {
+    width: 49%;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    background-color: #EFF5F9;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.book-form button {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #13C5DD;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #13C5DD;
+    transition: 0.5s;
+}
+
+.book-form button:hover {
+    background: none;
+    color: #13C5DD;
+
+}
+
+.sub-make .medical-text h2 {
+    color: black;
+    font-weight: 700;
+}
+
+.sub-make .medical-text p {
+    color: white;
+}
+
+.sub-make .medical-text .span-style {
+    color: white;
+}
+
+.sub-make .medical-text .span-style::before {
+    opacity: 1;
+    background-color: white;
+}
+
+.make-btn .btn {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.5s;
+}
+
+.make-btn .btn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.make-btn .btn2 {
+    background: none;
+    border: 1px solid black;
+    transition: 0.5s;
+    color: black;
+}
+
+.make-btn .btn2:hover {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+}
+
+/* 5th sec programs */
+.awesome {
+    padding: 50px 0;
+}
+
+.programs .title {
+    text-align: center;
+}
+
+.price-main {
+    text-align: center;
+    position: relative;
+    margin: 0 -27px;
+}
+
+.price-main::after {
+    width: 100%;
+    height: 50%;
+    content: " ";
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #13C5DD;
+    z-index: -1;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.price {
+    background-color: #EFF5F9;
+    margin: 0 27px;
+}
+
+.year {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/price-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-text {
+    padding: 30px 80px 60px;
+}
+
+.month h4 {
+    font-size: 30px;
+}
+
+.month sup {
+    font-size: 20px;
+}
+
+.month span {
+    font-size: 30px;
+}
+
+.month a {
+    font-size: 100px;
+    color: white;
+}
+
+.year-text p {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 30px;
+}
+
+.year-text a {
+    background-color: #13C5DD;
+    color: #EFF5F9;
+    transition: 0.5s;
+}
+
+.year-text a:hover {
+    background: none;
+    color: #13C5DD;
+    border: 1px solid #13C5DD;
+}
+
+.a-prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -12%;
+    left: 45%;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.a-prev:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.a-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: -12%;
+    right: 45%;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.a-next:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+/* 6th sec our doctors */
+
+.our-doctors {
+    padding: 200px 0;
+}
+
+.healthcare {
+    margin: 0 -20px;
+}
+
+.doctors .title {
+    text-align: center;
+}
+
+.doctors-details {
+    display: flex;
+    background-color: #EFF5F9;
+    margin: 0 20px;
+}
+
+.doctors-photo {
+    width: 40%;
+    overflow: hidden;
+}
+
+.doctors-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.doctors-photo img:hover {
+    transform: scale(1.1);
+}
+
+.doctors-text {
+    width: 60%;
+}
+
+.doctors-name {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.doctors-name h5 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.doctors-name span {
+    color: #13C5DD;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.doctors-name p {
+    font-size: 16px;
+    color: gray;
+    padding: 30px 0;
+}
+
+.social-media {
+    padding: 20px;
+}
+
+.social-media ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    margin-right: 20px;
+}
+
+.social-media ul li a {
+    width: 50px;
+    height: 50px;
+    background-color: #13C5DD;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+
+.social-media ul li a:hover {
+    transform: scale(1.1);
+}
+
+.a-prev2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    z-index: 999;
+    border-radius: 100%;
+    background-color: #13C5DD;
+    border: 1px solid #13C5DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.a-prev2:hover {
+    background-color: white;
+    color: #13C5DD;
+}
+
+.a-next2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    z-index: 999;
+    border-radius: 100%;
+    border: 1px solid #13C5DD;
+    background-color: #13C5DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.a-next2:hover {
+    background-color: white;
+    color: #13C5DD;
+}
+
+/* 7th sec find a healthcare  */
+.find {
+    background-color: #13C5DD;
+    padding: 50px 0;
+}
+
+.prof {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prof .title span {
+    color: white;
+}
+
+.prof .title p {
+    color: white;
+}
+
+.prof .title span::before {
+    opacity: 1;
+    background-color: white;
+}
+
+.key {
+    margin-top: 50px;
+}
+
+.key select {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.key input {
+    width: 40%;
+    padding: 8px 10px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.key button {
+    padding: 8px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* 8th section testimonial  */
+
+.test {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.patient-img img {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.font-awesome {
+    text-align: center;
+    position: relative;
+}
+
+.font-awesome i {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #EFF5F9;
+    border-radius: 100%;
+    color: #13C5DD;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.patient-text {
+    margin-top: 50px;
+}
+
+.patient-text p {
+    color: gray;
+    font-size: 14px;
+}
+
+.patient-text h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.patient-text span {
+    color: #13C5DD;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.slick-dots li {
+    margin-right: 25px;
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    border: 1px solid #13C5DD;
+    color: white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots .slick-active button {
+    width: 20px;
+    height: 20px;
+    background-color: #13C5DD;
+    border-radius: 100%;
+    color: #13C5DD;
+    transform: scale(1.4);
+}
+
+/* 9th section Medical Blog  */
+.blog-post {
+    padding: 50px 0;
+}
+
+.blog-post .title {
+    text-align: center;
+}
+
+.blog-content {
+    background-color: #EFF5F9;
+    border-radius: 20px;
+}
+
+.blog-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.blog-text {
+    padding: 20px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.blog-text h5 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.blog-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.views {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.user {
+    display: flex;
+}
+
+.user span {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 20%;
+    height: 100%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.comments a {
+    color: black;
+    margin-right: 10px;
+}
+
+.comments i {
+    color: #13C5DD;
+}
+
+/* 10th footer sec  */
+
+.footer {
+    background-color: #1D2A4D;
+    color: white;
+    padding: 50px 0;
+    border-bottom: 1px solid gray;
+}
+
+.foot {
+    padding-bottom: 60px;
+}
+
+.foot-details img {
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.foot-details img:hover {
+    transform: scale(1.1)
+}
+
+.foot-details h5 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #13C5DD;
+}
+
+.useful-link a {
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.useful-link a:hover {
+    color: #13C5DD;
+}
+
+.useful-link a i {
+    margin-right: 10px;
+}
+
+.foot-details ul {
+    display: flex;
+    padding: 0;
+}
+
+.foot-details ul li {
+    margin-right: 15px;
+}
+
+.foot-details ul li a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #13C5DD;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.foot-details ul li a:hover {
+    background-color: white;
+    color: #13C5DD;
+    transform: scale(1.1);
+}
+
+.foot-details a {
+    color: white;
+}
+
+.foot-details h6 {
+    color: #13C5DD;
+    font-size: 20px;
+}
+
+.foot-link i {
+    color: #13C5DD;
+}
+
+
+.foot-details p {
+    font-size: 16px;
+    padding-right: 100px;
+    color: #D6D6D4;
+}
+
+.foot-link {
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.foot-link:hover {
+    color: #13C5DD;
+}
+
+.foot-link i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.input {
+    position: relative; 
+}
+
+.input .info1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input .info1::placeholder {
+    color: #d6d6d6;
+}
+
+.input .info2 {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 10px;
+    background-color: #13C5DD;
+    color: white;
+    white-space: nowrap;
+    border: 1px solid #15e4d0;
+    transition: 0.5s;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 500;
+}
+
+.input .info2:hover {
+    background: none;
+    color: #15e4d0;
+}
+
+.lower-foot {
+    background-color: #1D2A4D;
+    color: white;
+    padding: 30px;
+}
+
+.lower-foot span {
+    color: #13C5DD;
+}
+
+.lower-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+/* Media Query Starts From  */
+
+@media only screen and (max-width:1366px) {
+    .health-text h1 {
+        font-size: 75px;
+    }
+
+    .sec {
+        width: 175px;
+        height: 150px;
+    }
+
+    .sec i {
+        font-size: 40px;
+    }
+
+    .price {
+        margin: 0 18px;
+    }
+
+    .test {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .health-text h1 {
+        font-size: 62px;
+    }
+
+    .sec {
+        width: 150px;
+        height: 125px;
+    }
+
+    .sec i {
+        font-size: 30px;
+    }
+
+    .sec h3 {
+        font-size: 20px;
+    }
+
+    .sec-main .sec span {
+        font-size: 15px;
+    }
+
+    .title h3 {
+        font-size: 45px;
+    }
+
+    .emergency {
+        padding: 20px;
+    }
+
+    .icon {
+        width: 130px;
+        height: 90px;
+    }
+
+    .icon i {
+        font-size: 40px;
+    }
+
+    .medical-text h2 {
+        font-size: 36px;
+    }
+
+    .medical-text p {
+        font-size: 14px;
+    }
+
+    .a-prev {
+        left: 46%;
+    }
+
+    .a-next {
+        right: 41%;
+    }
+
+    .test {
+        width: 50%;
+    }
+
+    .patient-img img {
+        width: 25%;
+    }
+
+    .blog-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-content {
+        margin-bottom: 30px;
+    }
+
+    .blog-text h5 {
+        font-size: 25px;
+    }
+
+    .blog-text p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .health-text h1 {
+        font-size: 45px;
+        padding-right: 250px;
+    }
+
+    .health-text span {
+        font-size: 16px;
+    }
+
+    .medical-text {
+        margin-bottom: 50px;
+    }
+
+    .medical-text p {
+        margin-bottom: 30px;
+    }
+
+    .excellent {
+        padding-bottom: 50px;
+    }
+
+    .emergency-main {
+        justify-content: center;
+    }
+
+    .price-main {
+        margin: 0;
+    }
+
+    .price {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .healthcare {
+        margin: 0;
+    }
+
+    .year-text {
+        padding: 60px;
+    }
+
+    .year-text p {
+        padding: 0;
+    }
+
+    .make {
+        padding-bottom: 0;
+    }
+
+    .ex-service {
+        margin-bottom: 80px;
+        padding: 0;
+    }
+
+    .a-prev {
+        left: 45%;
+    }
+
+    .a-next {
+        right: 39%;
+    }
+
+    .prof {
+        width: 80%;
+    }
+
+    .text {
+        width: 60%;
+    }
+
+    .blog {
+        padding: 0;
+    }
+
+    .foot-details {
+        margin-bottom: 50px;
+    }
+
+    .foot-details h5 {
+        margin-bottom: 20px;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .contact{
+        display: none;
+    }
+    .heading .medinova {
+        font-size: 24px;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .best {
+        padding: 35px 0;
+    }
+
+    .health-text h1 {
+        font-size: 30px;
+        padding-right: 220px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .medical-text h2 {
+        font-size: 30px;
+    }
+
+    .title h3 {
+        font-size: 35px;
+    }
+
+    .emergency h3 {
+        font-size: 20px;
+    }
+
+    .emergency p {
+        font-size: 14px;
+    }
+
+    .info .details {
+        width: 100%;
+    }
+
+    .icon {
+        width: 100px;
+        height: 70px;
+    }
+
+    .icon i {
+        font-size: 30px;
+    }
+
+    .sec {
+        width: 120px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .sec i {
+        font-size: 18px;
+    }
+
+    .sec h3 {
+        font-size: 18px;
+    }
+
+    .sec-main .sec span {
+        font-size: 14px;
+    }
+
+    .price {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .month a {
+        font-size: 80px;
+    }
+
+
+    .a-prev {
+        left: 43%;
+    }
+
+    .a-next {
+        right: 36%;
+    }
+
+    .prof {
+        width: 100%;
+    }
+
+    .test {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+
+    .sec-main {
+        margin-bottom: 20px;
+    }
+
+    .sec {
+        width: 150px;
+        height: 125px;
+    }
+    .foot {
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .health-text span {
+        font-size: 14px;
+    }
+    .make {
+        background-color: #13C5DD;
+        padding: 50px 15px;
+    }
+    .nav-li .nav-link{
+        font-size: 16px;
+    }
+
+    .health-text h1 {
+        font-size: 22px;
+        padding-right: 120px;
+    }
+
+    .book {
+        padding: 20px;
+    }
+
+    .a-prev {
+        width: 40px;
+        height: 40px;
+        left: 36%;
+    }
+
+
+    .a-next {
+        width: 40px;
+        height: 40px;
+        right: 36%;
+    }
+
+    .a-prev2 {
+        width: 40px;
+        height: 40px;
+        top: 105%;
+        left: 32%;
+        transform: none;
+    }
+
+    .a-next2 {
+        width: 40px;
+        height: 40px;
+        top: 105%;
+        right: 32%;
+        transform: none;
+    }
+
+    .social-media ul li a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .input .info1 {
+        padding: 12px;
+    }
+
+    .foot-details ul li a {
+        width: 40px;
+        height: 40px;
+    }
+    .views {
+        justify-content: center;
+    }
+    .user {
+        justify-content: center;
+        margin: 0 10px 15px ;
+    }
+    .key input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .key select{
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .lower-texts {
+        text-align: center;
+    }
+    .lower-texts p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+
+    p {
+        font-size: 14px;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .best {
+        padding: 15px 0;
+    }
+
+    .nav-li .nav-link {
+        font-size: 14px;
+    }
+
+    .health-text h1 {
+        font-size: 22px;
+        padding-right: 120px;
+
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .medical-care {
+        padding-bottom: 0;
+    }
+
+    .medical-text h2 {
+        font-size: 24px;
+    }
+
+    .span-style {
+        font-size: 14px;
+    }
+
+    .make {
+        padding: 30px 15px 0;
+    }
+
+    .ex-service {
+        margin-bottom: 50px;
+    }
+
+    .book {
+        padding: 30px 15px;
+    }
+
+    .book h4 {
+        font-size: 20px;
+    }
+
+    .book-form button {
+        font-size: 14px;
+    }
+
+    .sec-main {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .sec {
+        width: 130px;
+        height: 110px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .title h3 {
+        font-size: 26px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .info .details {
+        width: 100%;
+    }
+
+    .price {
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .year {
+        height: 200px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .year-text {
+        padding: 35px;
+    }
+
+    .year-text p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .month h4 {
+        font-size: 24px;
+    }
+
+    .month a {
+        font-size: 50px;
+    }
+
+    .a-prev {
+        width: 40px;
+        height: 40px;
+        left: 35%;
+    }
+
+    .a-next {
+        width: 40px;
+        height: 40px;
+        right: 32%;
+    }
+
+    .our-doctors {
+        padding: 80px 0 100px;
+    }
+
+    .doctors-details {
+        flex-wrap: wrap;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .doctors-photo img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .doctors-photo {
+        width: 100%;
+    }
+
+    .doctors-text {
+        width: 100%;
+    }
+
+    .social-media ul {
+        justify-content: center;
+    }
+
+    .social-media ul li {
+        margin: 0 auto;
+    }
+
+    .social-media ul li a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .test {
+        width: 100%;
+    }
+
+    .key select {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .foot-details a {
+        font-size: 14px;
+    }
+
+    .input .info1 {
+        padding: 10px;
+    }
+
+    .foot-details ul li a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .foot-details p {
+        font-size: 14px;
+    }
+
+    .foot-link i {
+        font-size: 14px;
+    }
+
+}
