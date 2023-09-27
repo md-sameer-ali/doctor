@@ -93,6 +93,7 @@ body {
 .best {
     background-image: url('../img/hero.jpg');
     background-size: cover;
+    background-position-x: right;
     padding: 100px 0;
 
 }
@@ -1044,6 +1045,10 @@ body {
     justify-content: space-between;
 
 }
+.awesome-page{
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
 
 
 /* Media Query Starts From  */
@@ -1163,7 +1168,7 @@ body {
     }
 
     .medical-text {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .medical-text p {
@@ -1306,6 +1311,7 @@ body {
 
     .sec i {
         font-size: 18px;
+        margin-bottom: -30px;
     }
 
     .sec h3 {
@@ -1447,6 +1453,33 @@ body {
     }
     .lower-texts p{
         width: 100%;
+    }
+    .medical-care {
+        padding: 20px 0;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .medical-text p{
+        padding: 0;
+    }
+    .excellent {
+        padding-bottom: 0px;
+    }
+    .ex-service {
+        margin-bottom: 0px;
+        padding: 0;
+    }
+    .our-doctors {
+        padding: 130px 0 80px;
+    }
+    .font-awesome i {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .blog-post{
+        padding-bottom: 10px;
     }
 }
 
