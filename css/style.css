@@ -1481,6 +1481,9 @@ body {
     .blog-post{
         padding-bottom: 10px;
     }
+    .sub-make .ex-service:nth-child(2){
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width:360px) {
